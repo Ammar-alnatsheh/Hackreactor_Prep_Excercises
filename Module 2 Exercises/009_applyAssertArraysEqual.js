@@ -24,6 +24,10 @@ function assertArraysEqual(actual, expected, testName) {
     }
   }
 
+  if(actual.length !== expected.length){
+  equal = false;
+  }
+
   if ( equal ) {
     console.log('passed');
 
