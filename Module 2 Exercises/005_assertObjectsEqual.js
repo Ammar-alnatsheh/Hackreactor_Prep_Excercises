@@ -65,6 +65,6 @@ function assertObjectsEqual(actual, expected, testName) {
     console.log('passed');
 
   } else {
-    console.log("FAILED [my test] Expected " + JSON.stringify(expected) + ", but got " + JSON.stringify(actual));
+    console.log("FAILED [" + testName + "] Expected " + JSON.stringify(expected) + ", but got " + JSON.stringify(actual));
   }
 }
